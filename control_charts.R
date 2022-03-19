@@ -1,0 +1,14 @@
+#### Autor: Samuel Farias
+#### Curso: Mestrado em Mecatronica
+#### Disciplina: Controle da Qualidade
+
+#### 9.2 Control Charts for Variables
+  ## 9.2.2 Estimation of σ for Control Charts
+  ## 9.2.3 Control Charts for Grouped Data
+
+
+# media
+library(qcc)
+library(SixSigma)
+
+aggregate(thickness ~ ushift, data = ss.data.thickness2, FUN = mean)
